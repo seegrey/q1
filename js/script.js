@@ -12,7 +12,7 @@ const personalMovieDB = {
 
 if(personalMovieDB.count < 10){
     alert("Мало");
-} else if (personalMovieDB.count= 10 && personalMovieDB.count <= 30){
+} else if (personalMovieDB.count >= 10 && personalMovieDB.count <= 30){
     alert("Норм");
 } else if (personalMovieDB.count > 30){
     alert("Много");
