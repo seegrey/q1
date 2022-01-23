@@ -25,7 +25,7 @@ for (let x = 0; x<=1;){
     const a = prompt("ваш любимый фильм", "");
     const b = prompt("оценка фильма", "");
 
-    if (a == null && b == null && a == "" && b == "" && a.length >= 50 && b.length >= 50){
+    if (a == null || b == null || a == undefined || b == undefined || a == "" || b == "" || a.length >= 50 || b.length >= 50){
         const a = prompt("ваш любимый фильм", "");
         const b = prompt("оценка фильма", "");
     } else {
